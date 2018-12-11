@@ -77,7 +77,7 @@ Configure RBAC permissions
 
 Kubernetes >=v1.6 makes RBAC the default admission controller. ceph-helm provides RBAC roles and permissions for each component::
 
-    $ kubectl create -f ~/ceph-helm/ceph/rbac.yaml
+    $ kubectl create -f rbac.yaml
 
 The ``rbac.yaml`` file assumes that the Ceph cluster will be deployed in the ``ceph`` namespace.
 
